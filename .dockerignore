@@ -3,3 +3,6 @@ npm-debug.log
 .env
 .git
 README.md
+.github
+*.tar.gz
+cache

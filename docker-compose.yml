@@ -1,12 +1,15 @@
 # One service, one port, one .env.
 #
 #   cp .env.example .env   # fill it in
-#   docker compose up -d --build
+#   docker compose pull && docker compose up -d
 #
 #   addon   http://<host>:7000/manifest.json
 #   admin   http://<host>:7000/admin
 services:
   nuvio-livetv:
+    # Prebuilt on every push to GitHub. `docker compose pull` fetches the
+    # newest; `docker compose up -d --build` builds from this folder instead.
+    image: ghcr.io/kohnorw/nuvio:latest
     build: .
     container_name: nuvio-livetv
     restart: unless-stopped

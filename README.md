@@ -28,6 +28,33 @@ Then:
 - admin page `http://<host>:7000/` (the root redirects to `/admin/`)
 - addon manifest `https://redirect.kohnor.ca/manifest.json`
 
+## Using the prebuilt image
+
+Every push to `main` publishes a ready-made image to GitHub Packages, for both
+ordinary servers (amd64) and ARM boards (arm64):
+
+```
+ghcr.io/kohnorw/nuvio:latest
+```
+
+So a server does not need the source, only `docker-compose.yml`, `.env` and
+the `config` folder (it is mounted over the image's copy, so it needs all of
+its files, not just `addons.json`):
+
+```bash
+mkdir -p nuvio-livetv/config && cd nuvio-livetv
+RAW=https://raw.githubusercontent.com/kohnorw/nuvio/main
+curl -fsSLO $RAW/docker-compose.yml
+curl -fsSL -o .env $RAW/.env.example
+for f in collections.json collections.genre.json layout.json; do curl -fsSL -o config/$f $RAW/config/$f; done
+curl -fsSL -o config/addons.json $RAW/config/addons.example.json
+nano .env config/addons.json
+docker compose pull && docker compose up -d
+```
+
+Updating is `docker compose pull && docker compose up -d`. Each build is also
+tagged `sha-<commit>`, so you can pin or roll back to an exact version.
+
 ## Using it
 
 1. Open the admin page and sign in with the **Nuvio** account.
