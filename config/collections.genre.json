@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "389acbda-d783-49c3-a57b-f0f9544ed8b0",
+    "title": "Genres",
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "backdropImageUrl": null,
+    "folders": [
+      {
+        "id": "ef1b5a44-2260-4ea9-99b7-99b44df79b22",
+        "title": "Action",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.action.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.action.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.action.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_action_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_action_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "e01485ef-2689-45b8-8152-80b9d619991b",
+        "title": "Comedy",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.comedy.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.comedy.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.comedy.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_comedy_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_comedy_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "f71628b5-5075-43c0-9d2e-a4b097d522ad",
+        "title": "Drama",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.drama.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.drama.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.drama.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_drama_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_drama_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "67e5c916-68bf-45cf-bb56-d6547c91c459",
+        "title": "Sci-Fi",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.sci_fi.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.sci_fi.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.sci_fi.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_scifi_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_scifi_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "59eacb04-65e1-43cd-b506-3d73450769d6",
+        "title": "Horror",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.horror.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.horror.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.horror.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_horror_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_horror_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_toprated_movies",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_horror_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_horror_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_horror_toprated_movies",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "00ec1f5f-c33f-484d-95ff-239007cb3fde",
+        "title": "Crime",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.crime.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.crime.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.crime.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_crime_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_crime_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "9cb077bc-d865-4a60-a6ec-468a3b9fcc1f",
+        "title": "Fantasy",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.fantasy.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.fantasy.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.fantasy.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_fantasy_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_fantasy_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "e1fc4c1f-5010-4eb2-83a6-55210ed2b8a7",
+        "title": "Mystery",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.mystery.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.mystery.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.mystery.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_mystery_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_mystery_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "d68cbfd1-2d5f-4954-92d5-5975258857ab",
+        "title": "Romance",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.romance.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.romance.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.romance.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romance_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romance_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "0c7966f7-18d9-422e-b1a3-3955c82ab277",
+        "title": "Thrillers",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.thrillers.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.thrillers.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.thrillers.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_thriller_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_thriller_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_toprated_movies",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_thriller_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_thriller_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_thriller_toprated_movies",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "f55ed5ba-6385-4a55-8716-265d96fe8344",
+        "title": "Documentaries",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.documentaries.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.documentaries.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.documentaries.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_documentary_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_documentary_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "0a524ee0-8d57-4f8b-8aec-0c50732d9814",
+        "title": "Animated",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.animated.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.animated.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.animated.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_animation_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_animation_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "3f8acbd8-28c5-47ef-ac78-bea492b5e76a",
+        "title": "Bollywood",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.bollywood.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.bollywood.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.bollywood.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_bollywood_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_bollywood_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "098066f5-9555-40b1-b237-1dd78dd023b0",
+        "title": "Westerns",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.westerns.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.westerns.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.westerns.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_westerns_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_westerns_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_westerns_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_westerns_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "1ccd9a74-3e1e-4e22-9522-5a7253b0c087",
+        "title": "Sports",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.sports.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.sports.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.sports.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_sports_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_sports_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_sports_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_sports_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "72cc6829-34a1-4e84-85da-84297af3d07f",
+        "title": "Musicals",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.musicals.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.musicals.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.musicals.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_toprated_movies",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_musicals_toprated_movies",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "cf740ae4-fa41-4810-853c-d0ecb411b378",
+        "title": "K-Drama",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.k_drama.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.k_drama.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.k_drama.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_kdrama_popular_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_kdrama_latest_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_kdrama_popular_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_kdrama_latest_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "272a6fc8-8625-4090-93c9-2bfad693ce79",
+        "title": "Anime",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.anime.webp?v=2",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.anime.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.anime.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_anime_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_anime_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_anime_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_anime_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "ae5f2a2e-d2d0-49b2-a3b8-199d6f817555",
+        "title": "Spy Thrillers",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.spy.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.spy.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.spy.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_spy_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_spy_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_spy_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_spy_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "23fb3831-449e-4d19-9e78-f7b1b6e0c8d5",
+        "title": "War",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.war.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.war.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.war.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_war_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_war_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_war_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_war_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "a0d646da-e285-447d-85d2-6ab11c90723a",
+        "title": "Adventure",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.adventure.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.adventure.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.adventure.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_adventure_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_adventure_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "18485c37-c5c9-45e3-9fe9-a56225534089",
+        "title": "Family",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.family.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.family.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.family.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_latest_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_toprated_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_toprated_series",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_latest_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_family_toprated_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_family_toprated_series",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "a7c17d5e-4b4f-4ad8-a0df-d5f0ad1360dd",
+        "title": "History",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.history.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.history.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.history.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_limited_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_toprated_movies",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_limited_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_history_toprated_movies",
+            "genre": "None"
+          }
+        ]
+      },
+      {
+        "id": "344bb6eb-840e-484d-ab02-084cac281787",
+        "title": "Romantic Comedy",
+        "hideTitle": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/genres.romantic_comedy.webp?v=7",
+        "coverEmoji": null,
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/genres.romantic_comedy.backdrop.webp?v=7",
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/genres.romantic_comedy.logo.webp?v=7",
+        "tileShape": "LANDSCAPE",
+        "catalogSources": [
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romantic_comedy_series",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_latest_movies",
+            "genre": null
+          },
+          {
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_toprated_movies",
+            "genre": null
+          }
+        ],
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "series",
+            "catalogId": "genre_romantic_comedy_series",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_latest_movies",
+            "genre": "None"
+          },
+          {
+            "provider": "addon",
+            "addonId": "app.xperience.fefdfe63-9180-4776-9c06-a64bba04eee2",
+            "type": "movie",
+            "catalogId": "genre_romantic_comedy_toprated_movies",
+            "genre": "None"
+          }
+        ]
+      }
+    ]
+  }
+]

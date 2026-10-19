@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nuvio Setup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<!-- hero ------------------------------------------------------------------ -->
+<header class="hero">
+  <div class="hero-art" aria-hidden="true"></div>
+  <div class="hero-fade" aria-hidden="true"></div>
+
+  <div class="hero-body">
+    <h1 class="hero-title">Nuvio <span>Setup</span></h1>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1 ----------------------------------------------------------------- -->
+  <section class="row" id="step-accounts">
+    <h2 class="row-title">Sign in</h2>
+    <p class="row-sub">Add each Nuvio account you want to set up. Credentials go straight to Nuvio &mdash; never written to disk.</p>
+
+    <div class="note" id="configWarning" hidden><p></p></div>
+
+    <form class="signin" id="signinForm" autocomplete="off">
+      <input type="email" id="email" placeholder="Email" required autocomplete="username" />
+      <input type="password" id="password" placeholder="Password" required autocomplete="current-password" />
+      <button type="submit" class="pill pill-light" id="signinBtn">Sign in</button>
+    </form>
+    <p class="msg-err" id="signinError" hidden></p>
+  </section>
+
+  <!-- 2 ----------------------------------------------------------------- -->
+  <section class="row" id="step-targets" hidden>
+    <h2 class="row-title">Profiles</h2>
+    <p class="row-sub">Pick every profile that should receive the setup. Deselect anything you want left alone.</p>
+    <div id="board"></div>
+  </section>
+
+  <!-- 3 ----------------------------------------------------------------- -->
+  <section class="row" id="step-quality" hidden>
+    <h2 class="row-title">Stream quality</h2>
+    <p class="row-sub">Picks which AIOStreams build gets installed. One or the other &mdash; not both.</p>
+    <div class="segmented" id="qualityGroup" role="radiogroup" aria-label="Stream quality"></div>
+    <p class="seg-hint" id="qualityHint" hidden></p>
+  </section>
+
+  <!-- 4 ----------------------------------------------------------------- -->
+  <section class="row" id="step-livetv" hidden>
+    <h2 class="row-title">Live TV</h2>
+    <p class="row-sub">Installs the IPTV addon. Its channels appear under the addon's own catalog — no collection is created.</p>
+
+    <label class="switch" id="liveTvSwitch">
+      <input type="checkbox" id="liveTvToggle" />
+      <span class="track" aria-hidden="true"><span class="knob"></span></span>
+      <span class="switch-label">Install Live TV</span>
+    </label>
+
+    <div id="liveTvLogin" class="livetv-login" hidden>
+      <p class="row-sub">Enter your IPTV username and password. They are checked with the service and turned into your personal Live TV link &mdash; never written to disk.</p>
+      <div class="signin">
+        <input type="text" id="iptvUser" placeholder="IPTV username" autocomplete="off" autocapitalize="none" spellcheck="false" />
+        <input type="password" id="iptvPass" placeholder="IPTV password" autocomplete="off" />
+        <button type="button" class="pill pill-dark" id="iptvCheckBtn">Check login</button>
+      </div>
+      <p class="msg-err" id="iptvError" hidden></p>
+      <p class="msg-ok" id="iptvOk" hidden></p>
+    </div>
+  </section>
+
+  <!-- 5 ----------------------------------------------------------------- -->
+  <section class="row" id="step-apply" hidden>
+    <h2 class="row-title">Review &amp; push</h2>
+
+    <div class="note">
+      <p><b>This is a clean install.</b> Each selected profile is reset to exactly
+      Cinemeta, OpenSubtitles v3, Xperience, your chosen AIOStreams build and —
+      if Live TV is on — the IPTV addon. Every other addon is removed, and all
+      existing collections are replaced by the bundled <b>Streaming</b> and
+      <b>Genres</b> ones. Run <b>Preview changes</b> first to see what would go.</p>
+    </div>
+
+    <div class="toolbar">
+      <div class="toolbar-actions">
+        <button class="pill pill-dark" id="previewBtn">Preview changes</button>
+        <button class="pill pill-light" id="applyBtn">Push to selected</button>
+      </div>
+    </div>
+    <p class="msg-err" id="applyError" hidden></p>
+  </section>
+
+  <footer class="foot">
+    <p>Self-hosted. Not affiliated with Nuvio &mdash; uses the documented public API.</p>
+  </footer>
+
+</main>
+
+<script src="/app.js" type="module"></script>
+</body>
+</html>

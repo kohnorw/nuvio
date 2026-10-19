@@ -1,0 +1,238 @@
+:root{
+  --bg:#000;
+  --surface:#141517;
+  --surface-2:#1E2023;
+  --surface-3:#282B2F;
+  --text:#FFF;
+  --muted:#9AA0A6;
+  --dim:#6B7176;
+  --green:#4ADE80;
+  --amber:#FBBF24;
+  --red:#F87171;
+  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+  --gutter:clamp(1.25rem,5vw,4.5rem);
+  --radius:14px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:var(--font); font-size:15px; line-height:1.5;
+  -webkit-font-smoothing:antialiased; letter-spacing:-.011em;
+}
+b,strong{font-weight:700}
+
+/* ------------------------------------------------------------------ hero -- */
+.hero{position:relative; min-height:clamp(190px,25vh,260px); display:flex; align-items:flex-end; overflow:hidden}
+
+/* Abstract backdrop — evokes the app's cinematic hero without borrowing art. */
+.hero-art{
+  position:absolute; inset:0;
+  background:
+    radial-gradient(120% 90% at 72% 8%, #1C4A5A 0%, transparent 58%),
+    radial-gradient(90% 80% at 88% 42%, #2A6076 0%, transparent 62%),
+    radial-gradient(70% 70% at 46% 0%, #123240 0%, transparent 70%),
+    linear-gradient(160deg,#0B1E26 0%,#050B0F 62%,#000 100%);
+}
+/* Fade to black on the left and bottom, exactly like the app's hero. */
+.hero-fade{
+  position:absolute; inset:0;
+  background:
+    linear-gradient(90deg,#000 0%,rgba(0,0,0,.86) 26%,rgba(0,0,0,.15) 62%,transparent 100%),
+    linear-gradient(0deg,#000 0%,rgba(0,0,0,.72) 22%,transparent 62%);
+}
+
+.hero-body{position:relative; padding:0 var(--gutter) clamp(2rem,5vh,3.25rem); max-width:min(640px,92%)}
+.hero-title{
+  margin:0; font-size:clamp(2.4rem,6.4vw,4rem); font-weight:800;
+  letter-spacing:-.045em; line-height:.94;
+}
+.hero-title span{display:block; color:var(--muted); font-weight:700}
+
+
+/* ------------------------------------------------------------------- rows -- */
+main{padding:clamp(1.75rem,4vh,2.75rem) 0 0}
+.row{padding:0 var(--gutter); margin-bottom:clamp(2.25rem,5vh,3.25rem)}
+.row[hidden]{display:none}
+
+/* Section header + short underline bar, straight from the app's row headers. */
+.row-title{margin:0; font-size:clamp(1.15rem,2.2vw,1.45rem); font-weight:700; letter-spacing:-.02em}
+.row-title::after{
+  content:""; display:block; width:104px; height:4px; border-radius:99px;
+  background:#fff; margin-top:.7rem;
+}
+.row-sub{margin:1rem 0 1.25rem; color:var(--muted); font-size:.925rem; max-width:70ch}
+
+
+/* ------------------------------------------------------------------ pills -- */
+.pill{
+  font:inherit; font-size:.9rem; font-weight:700; letter-spacing:-.01em;
+  padding:.72rem 1.5rem; border-radius:99px; border:0; cursor:pointer;
+  transition:background .16s ease, transform .16s ease, opacity .16s ease;
+}
+.pill-light{background:#fff; color:#000}
+.pill-light:hover:not(:disabled){background:#E3E5E8}
+.pill-dark{background:var(--surface-2); color:#fff}
+.pill-dark:hover:not(:disabled){background:var(--surface-3)}
+.pill.sm{padding:.5rem 1rem; font-size:.82rem}
+.pill:disabled{opacity:.4; cursor:not-allowed}
+.pill:active:not(:disabled){transform:scale(.97)}
+
+:where(button,input,label):focus-visible{outline:2px solid #fff; outline-offset:3px; border-radius:99px}
+
+/* ------------------------------------------------------------------ forms -- */
+.signin{display:flex; gap:.6rem; flex-wrap:wrap; max-width:720px}
+.signin input{
+  flex:1 1 200px; min-width:0; font:inherit; font-size:.92rem;
+  background:var(--surface); border:0; border-radius:99px;
+  color:#fff; padding:.72rem 1.15rem;
+}
+.signin input::placeholder{color:var(--dim)}
+.signin input:focus-visible{outline:2px solid #fff; outline-offset:2px}
+
+.msg-err{margin:.9rem 0 0; color:var(--red); font-size:.875rem; font-weight:500}
+.msg-err[hidden]{display:none}
+.msg-ok{margin:.9rem 0 0; color:var(--green); font-size:.875rem; font-weight:500}
+.msg-ok[hidden]{display:none}
+.livetv-login{margin-top:1.4rem}
+.livetv-login[hidden]{display:none}
+.livetv-login .row-sub{margin-top:0}
+
+/* --------------------------------------------------------------- accounts -- */
+.acct{background:var(--surface); border-radius:var(--radius); overflow:hidden; margin-bottom:.85rem}
+.acct-head{
+  display:flex; align-items:center; gap:.75rem;
+  padding:.95rem 1.25rem .8rem;
+}
+.avatar{
+  width:30px; height:30px; border-radius:8px; flex:none;
+  display:grid; place-items:center; font-size:.8rem; font-weight:700; color:#000;
+  background:#fff;
+}
+.acct-email{font-size:.925rem; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.acct-count{margin-left:auto; color:var(--dim); font-size:.8rem; font-weight:500; flex:none}
+
+.profs{display:grid; grid-template-columns:repeat(auto-fill,minmax(276px,1fr)); gap:.7rem; padding:0 1.25rem 1.25rem}
+
+/* Profile tiles: rounded, borderless, selection shown by fill + ring. */
+.prof{
+  position:relative; display:grid; grid-template-columns:auto 1fr;
+  column-gap:.7rem; row-gap:.55rem; align-items:center;
+  background:var(--surface-2); border-radius:12px; padding:.8rem .9rem;
+  cursor:pointer; transition:background .16s ease, box-shadow .16s ease;
+}
+.prof:hover{background:var(--surface-3)}
+.prof.sel{box-shadow:inset 0 0 0 2px #fff}
+.prof input{position:absolute; opacity:0; width:0; height:0}
+
+.tick{
+  width:19px; height:19px; border-radius:6px; flex:none;
+  display:grid; place-items:center;
+  background:rgba(255,255,255,.16); transition:background .16s ease;
+}
+.prof.sel .tick{background:#fff}
+.tick svg{width:11px; height:11px; opacity:0; transition:opacity .16s ease}
+.prof.sel .tick svg{opacity:1}
+
+.prof-name{font-size:.9rem; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+
+/* Status pill, styled after the app's "1h 1m left" overlay badge.
+   Inside a profile tile it takes its own full-width line so long
+   push results stay readable instead of truncating. */
+.prof .badge{grid-column:1 / -1; margin-left:0; max-width:100%; white-space:normal}
+.badge{
+  margin-left:auto; flex:none; max-width:62%;
+  background:rgba(255,255,255,.11); color:#E8EAED;
+  font-size:.72rem; font-weight:600; letter-spacing:0;
+  padding:.26rem .6rem; border-radius:99px;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.badge:empty{display:none}
+.badge.run{background:rgba(251,191,36,.18); color:var(--amber)}
+.badge.ok{background:rgba(74,222,128,.18); color:var(--green)}
+.badge.err{background:rgba(248,113,113,.18); color:var(--red)}
+.badge.info{background:rgba(255,255,255,.13); color:#E8EAED}
+
+/* ------------------------------------------------------------- segmented -- */
+.segmented{display:inline-flex; gap:.35rem; background:var(--surface); border-radius:99px; padding:.35rem}
+.segmented label{position:relative; cursor:pointer}
+.segmented input{position:absolute; opacity:0; width:0; height:0}
+.segmented span{
+  display:block; padding:.55rem 1.5rem; border-radius:99px;
+  font-size:.9rem; font-weight:700; color:var(--muted);
+  transition:background .16s ease, color .16s ease;
+}
+.segmented label:hover span{color:#fff}
+.segmented input:checked + span{background:#fff; color:#000}
+.segmented input:focus-visible + span{outline:2px solid #fff; outline-offset:3px}
+.segmented label.off{cursor:not-allowed}
+.segmented label.off span{color:var(--dim)}
+.segmented label.off:hover span{color:var(--dim)}
+.seg-hint{margin:.7rem 0 0; color:var(--amber); font-size:.85rem; font-weight:500}
+.seg-hint[hidden]{display:none}
+
+/* ------------------------------------------------------------------ note -- */
+.note{
+  border-left:3px solid var(--amber); background:rgba(251,191,36,.07);
+  border-radius:0 12px 12px 0; padding:.9rem 1.1rem; margin-bottom:1.25rem;
+  max-width:82ch;
+}
+.note[hidden]{display:none}
+.note p{margin:0; font-size:.9rem; color:#DED3BE}
+.note b{color:#fff}
+.note code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.85em;
+  background:rgba(255,255,255,.09); padding:.1rem .35rem; border-radius:5px; color:#fff;
+}
+
+/* ---------------------------------------------------------------- toolbar -- */
+.toolbar{display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap}
+.toolbar-actions{display:flex; gap:.6rem; margin-left:auto; flex-wrap:wrap}
+.toggle{display:flex; align-items:center; gap:.5rem; font-size:.9rem; font-weight:600; cursor:pointer}
+.toggle input{
+  appearance:none; width:38px; height:22px; border-radius:99px; margin:0;
+  background:var(--surface-3); position:relative; cursor:pointer;
+  transition:background .18s ease;
+}
+.toggle input::after{
+  content:""; position:absolute; top:3px; left:3px; width:16px; height:16px;
+  border-radius:99px; background:#fff; transition:transform .18s ease;
+}
+.toggle input:checked{background:#fff}
+.toggle input:checked::after{transform:translateX(16px); background:#000}
+
+
+/* ------------------------------------------------------------------- foot -- */
+.foot{padding:1.5rem var(--gutter) 3.5rem}
+.foot p{margin:0; color:var(--dim); font-size:.8rem}
+
+@media (max-width:560px){
+  .toolbar-actions{margin-left:0; width:100%}
+  .toolbar-actions .pill{flex:1}
+  .profs{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important; animation:none !important}
+}
+
+
+/* ---------------------------------------------------------------- switch -- */
+.switch{display:inline-flex; align-items:center; gap:.7rem; cursor:pointer; user-select:none}
+.switch input{position:absolute; opacity:0; width:0; height:0}
+.switch .track{
+  position:relative; flex:0 0 auto; width:46px; height:27px;
+  background:var(--surface-3); border-radius:99px; transition:background .16s ease;
+}
+.switch .knob{
+  position:absolute; top:3px; left:3px; width:21px; height:21px;
+  background:var(--muted); border-radius:50%;
+  transition:transform .16s ease, background .16s ease;
+}
+.switch input:checked + .track{background:#fff}
+.switch input:checked + .track .knob{transform:translateX(19px); background:#000}
+.switch input:focus-visible + .track{outline:2px solid #fff; outline-offset:3px}
+.switch-label{font-weight:600; color:var(--muted); transition:color .16s ease}
+.switch input:checked ~ .switch-label{color:#fff}
+.switch.off{cursor:not-allowed}
+.switch.off .switch-label{color:var(--dim)}
