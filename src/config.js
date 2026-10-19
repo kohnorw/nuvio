@@ -120,8 +120,9 @@ export const defaults = {
   // stops one slow host leaving a whole row blank. 0 disables the deadline.
   logoDeadlineMs: num(process.env.LOGO_DEADLINE_MS, 1500),
   insecureTls: String(process.env.INSECURE_TLS || 'false') === 'true',
-  // keep live channels out of the player's Continue Watching row
-  hideFromContinueWatching: String(process.env.HIDE_FROM_CONTINUE_WATCHING || 'true') === 'true',
+  // Keep live channels out of the player's Continue Watching row. Off by
+  // default: a channel watched recently is the one most worth getting back to.
+  hideFromContinueWatching: flag(process.env.HIDE_FROM_CONTINUE_WATCHING, false),
   // how many upcoming programmes to list
   scheduleItems: num(process.env.SCHEDULE_ITEMS, 5),
   // blocks | ascii | none

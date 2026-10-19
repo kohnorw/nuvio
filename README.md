@@ -322,6 +322,7 @@ Everything lives in `.env`.
 | `COLLECTION_ONLY` | `true` | Addon adds no rows; the collection is the whole interface. |
 | `AIOSTREAMS_4K_URL` / `AIOSTREAMS_1080P_URL` | — | Offered as the quality choice on the admin page. |
 | `EXCLUDE_GROUPS` / `INCLUDE_GROUPS` | `adult,xxx,ppv` | Category filters, matched loosely. |
+| `HIDE_FROM_CONTINUE_WATCHING` | `false` | `true` keeps live channels out of Nuvio's Continue Watching row. |
 | `LIBRARY_SYNC` | `true` | Move saved library and Continue Watching entries onto new channel ids after a push and after each refresh. |
 | `PORT` | `7000` | Port for both halves. |
 
