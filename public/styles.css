@@ -95,9 +95,6 @@ main{padding:clamp(1.75rem,4vh,2.75rem) 0 0}
 .msg-err[hidden]{display:none}
 .msg-ok{margin:.9rem 0 0; color:var(--green); font-size:.875rem; font-weight:500}
 .msg-ok[hidden]{display:none}
-.livetv-login{margin-top:1.4rem}
-.livetv-login[hidden]{display:none}
-.livetv-login .row-sub{margin-top:0}
 
 /* --------------------------------------------------------------- accounts -- */
 .acct{background:var(--surface); border-radius:var(--radius); overflow:hidden; margin-bottom:.85rem}
@@ -217,22 +214,3 @@ main{padding:clamp(1.75rem,4vh,2.75rem) 0 0}
 }
 
 
-/* ---------------------------------------------------------------- switch -- */
-.switch{display:inline-flex; align-items:center; gap:.7rem; cursor:pointer; user-select:none}
-.switch input{position:absolute; opacity:0; width:0; height:0}
-.switch .track{
-  position:relative; flex:0 0 auto; width:46px; height:27px;
-  background:var(--surface-3); border-radius:99px; transition:background .16s ease;
-}
-.switch .knob{
-  position:absolute; top:3px; left:3px; width:21px; height:21px;
-  background:var(--muted); border-radius:50%;
-  transition:transform .16s ease, background .16s ease;
-}
-.switch input:checked + .track{background:#fff}
-.switch input:checked + .track .knob{transform:translateX(19px); background:#000}
-.switch input:focus-visible + .track{outline:2px solid #fff; outline-offset:3px}
-.switch-label{font-weight:600; color:var(--muted); transition:color .16s ease}
-.switch input:checked ~ .switch-label{color:#fff}
-.switch.off{cursor:not-allowed}
-.switch.off .switch-label{color:var(--dim)}

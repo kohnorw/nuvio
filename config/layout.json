@@ -2,7 +2,6 @@
   "_comment": "Display order for collections, matched on title (case-insensitive). Any collection whose title isn't listed here is appended after these, keeping its file order.",
   "collectionOrder": [
     "Streaming",
-    "Genres",
-    "Live TV"
+    "Genres"
   ]
 }

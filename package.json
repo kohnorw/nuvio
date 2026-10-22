@@ -1,22 +1,19 @@
 {
-  "name": "nuvio-livetv",
-  "version": "2.0.0",
-  "description": "Self-hosted Live TV for Nuvio: Xtream Codes addon plus the admin page that installs it, in one app",
+  "name": "nuvio-setup",
+  "version": "3.0.0",
+  "description": "Self-hosted admin page that installs a fixed addon and collection set onto Nuvio profiles",
   "type": "module",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
-    "push": "node scripts/push-collection.mjs"
+    "dev": "node --watch src/server.js"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
     "compression": "^1.8.2",
-    "express": "^4.19.2",
-    "sax": "^1.4.1",
-    "sharp": "^0.34.1"
+    "express": "^4.19.2"
   },
   "license": "MIT"
 }

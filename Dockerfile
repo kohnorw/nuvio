@@ -3,17 +3,12 @@ FROM node:22-alpine
 ENV NODE_ENV=production
 WORKDIR /app
 
-# sharp resizes the station logos; the font is what lets a channel with no
-# logo get a tile with its initials rather than an empty box.
-RUN apk add --no-cache font-dejavu
-
 COPY package.json ./
 RUN npm install --omit=dev && npm cache clean --force
 
 COPY src ./src
 COPY admin ./admin
 COPY public ./public
-COPY scripts ./scripts
 # config/ is mounted at run time so the addon list can be edited without a
 # rebuild; this copy is the fallback when nothing is mounted.
 COPY config ./config

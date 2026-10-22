@@ -3,7 +3,6 @@
 #   cp .env.example .env   # fill it in
 #   docker compose pull && docker compose up -d
 #
-#   addon   http://<host>:7000/manifest.json
 #   admin   http://<host>:7000/admin
 services:
   nuvio-livetv:
@@ -20,9 +19,6 @@ services:
     volumes:
       # Your addon list, read fresh on each request: edit without rebuilding.
       - ./config:/app/config:ro
-      # Remembered logins, so a restart preloads them instead of making the
-      # first viewer wait for the whole playlist.
-      - ./cache:/app/cache
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:7000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 60s

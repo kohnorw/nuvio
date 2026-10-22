@@ -29,7 +29,12 @@ async function loadBundle() {
     }
 
     renderQualities();
-    renderLiveTv();
+
+    if (!bundle.genreFilePresent && warn.hidden) {
+      warn.querySelector('p').innerHTML =
+        '<b>No Genres collection yet.</b> Add <code>config/collections.genre.json</code>, then restart.';
+      warn.hidden = false;
+    }
   } catch {
     warn.querySelector('p').innerHTML =
       '<b>Could not read the bundle config.</b> Check the container logs.';
@@ -80,84 +85,6 @@ function renderQualities() {
     hint.hidden = false;
   } else {
     hint.hidden = true;
-  }
-}
-
-/* ---------------------------------------------------------------- live tv -- */
-
-let liveTvEnabled = false;
-
-// Personal-login mode: the customer's IPTV credentials, held only in this tab.
-const iptvLogin = () => ({
-  username: $('iptvUser').value.trim(),
-  password: $('iptvPass').value,
-});
-const needsLiveTvLogin = () => Boolean(bundle?.liveTv?.needsLogin);
-
-function syncLiveTvLogin() {
-  $('liveTvLogin').hidden = !(liveTvEnabled && needsLiveTvLogin());
-}
-
-function clearIptvStatus() {
-  $('iptvError').hidden = true;
-  $('iptvOk').hidden = true;
-}
-
-function fmtDate(iso) {
-  return new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-}
-
-$('iptvCheckBtn').addEventListener('click', async () => {
-  const btn = $('iptvCheckBtn');
-  clearIptvStatus();
-  btn.disabled = true;
-  btn.textContent = 'Checking…';
-  try {
-    const r = await post('/admin/api/livetv/check', iptvLogin());
-    const a = r.account || {};
-    const bits = ['Login works'];
-    if (a.expires) bits.push(`active until ${fmtDate(a.expires)}`);
-    if (a.maxConnections) bits.push(`${a.maxConnections} screen${a.maxConnections === 1 ? '' : 's'} at once`);
-    $('iptvOk').textContent = bits.join(' · ');
-    $('iptvOk').hidden = false;
-  } catch (e) {
-    $('iptvError').textContent = e.message;
-    $('iptvError').hidden = false;
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'Check login';
-  }
-});
-
-['iptvUser', 'iptvPass'].forEach((id) => $(id).addEventListener('input', clearIptvStatus));
-
-function renderLiveTv() {
-  const lt = bundle?.liveTv || {};
-  const sw = $('liveTvSwitch');
-  const input = $('liveTvToggle');
-
-  input.disabled = !lt.configured;
-  sw.classList.toggle('off', !lt.configured);
-  // Only reason the toggle is ever disabled — kept on the tooltip rather than
-  // as a line of copy under the switch.
-  sw.title = lt.configured ? '' : 'Live TV is not configured — set LIVETV_API_URL and LIVETV_API_KEY (or LIVETV_URL) in .env.';
-  input.checked = false;
-  liveTvEnabled = false;
-
-  input.onchange = () => {
-    liveTvEnabled = input.checked;
-    syncLiveTvLogin();
-  };
-  syncLiveTvLogin();
-
-  const warn = $('configWarning');
-  if (bundle && !bundle.genreFilePresent && warn.hidden) {
-    warn.querySelector('p').innerHTML =
-      '<b>No Genres collection yet.</b> Run ' +
-      '<code>node scripts/build-genre-collection.mjs</code> to generate ' +
-      '<code>config/collections.genre.json</code> from your Xperience manifest, ' +
-      'then restart.';
-    warn.hidden = false;
   }
 }
 
@@ -267,7 +194,6 @@ function render() {
   const none = accounts.length === 0;
   $('step-targets').hidden = none;
   $('step-quality').hidden = none;
-  $('step-livetv').hidden = none;
   $('step-apply').hidden = none;
 }
 
@@ -312,15 +238,6 @@ async function runAcross(fn, label) {
     return;
   }
 
-  if (liveTvEnabled && needsLiveTvLogin()) {
-    const l = iptvLogin();
-    if (!l.username || !l.password) {
-      err.textContent = 'Enter your IPTV username and password, or switch Live TV off.';
-      err.hidden = false;
-      return;
-    }
-  }
-
   $('previewBtn').disabled = true;
   $('applyBtn').disabled = true;
 
@@ -344,17 +261,12 @@ $('previewBtn').addEventListener('click', () =>
       accessToken: t.acct.accessToken,
       profileId: t.prof.profileId,
       quality: selectedQuality,
-      liveTv: liveTvEnabled,
-      liveTvLogin: liveTvEnabled && needsLiveTvLogin() ? iptvLogin() : undefined,
     });
     const bits = [];
     if (r.addonsRemoved.length)
       bits.push(`removes ${r.addonsRemoved.length}: ${r.addonsRemoved.join(', ')}`);
     if (r.addonsAdded.length) bits.push(`adds ${r.addonsAdded.length} addon`);
     if (r.collectionsRemoved) bits.push(`replaces ${r.collectionsRemoved} coll`);
-    if (r.liveTvFolders) bits.push(`${r.liveTvFolders} Live TV categories`);
-    else if (r.liveTvCollectionError) bits.push(`no Live TV collection: ${r.liveTvCollectionError}`);
-    if (r.liveTvCollectionWarning) bits.push(r.liveTvCollectionWarning);
     if (r.collectionOrder?.length) bits.push(`layout: ${r.collectionOrder.join(' → ')}`);
     setStatus(t.ai, t.pi, bits.length ? bits.join(' · ') : 'already clean', 'info');
   }, 'reading…')
@@ -363,7 +275,7 @@ $('previewBtn').addEventListener('click', () =>
 $('applyBtn').addEventListener('click', () => {
   const n = selectedTargets().length;
   if (n && !confirm(
-    `Clean install on ${n} profile(s)${liveTvEnabled ? ', with Live TV' : ''}.\n\n` +
+    `Clean install on ${n} profile(s).\n\n` +
     'Every addon not in the bundle will be REMOVED, and all existing ' +
     'collections will be replaced.\n\nThis cannot be undone. Continue?'
   )) return;
@@ -373,8 +285,6 @@ $('applyBtn').addEventListener('click', () => {
       accessToken: t.acct.accessToken,
       profileId: t.prof.profileId,
       quality: selectedQuality,
-      liveTv: liveTvEnabled,
-      liveTvLogin: liveTvEnabled && needsLiveTvLogin() ? iptvLogin() : undefined,
     });
     setStatus(t.ai, t.pi, r.log.join(' · '), 'ok');
   }, 'pushing…');

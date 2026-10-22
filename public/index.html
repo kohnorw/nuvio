@@ -54,36 +54,12 @@
   </section>
 
   <!-- 4 ----------------------------------------------------------------- -->
-  <section class="row" id="step-livetv" hidden>
-    <h2 class="row-title">Live TV</h2>
-    <p class="row-sub">Installs the IPTV addon. Its channels appear under the addon's own catalog — no collection is created.</p>
-
-    <label class="switch" id="liveTvSwitch">
-      <input type="checkbox" id="liveTvToggle" />
-      <span class="track" aria-hidden="true"><span class="knob"></span></span>
-      <span class="switch-label">Install Live TV</span>
-    </label>
-
-    <div id="liveTvLogin" class="livetv-login" hidden>
-      <p class="row-sub">Enter your IPTV username and password. They are checked with the service and turned into your personal Live TV link &mdash; never written to disk.</p>
-      <div class="signin">
-        <input type="text" id="iptvUser" placeholder="IPTV username" autocomplete="off" autocapitalize="none" spellcheck="false" />
-        <input type="password" id="iptvPass" placeholder="IPTV password" autocomplete="off" />
-        <button type="button" class="pill pill-dark" id="iptvCheckBtn">Check login</button>
-      </div>
-      <p class="msg-err" id="iptvError" hidden></p>
-      <p class="msg-ok" id="iptvOk" hidden></p>
-    </div>
-  </section>
-
-  <!-- 5 ----------------------------------------------------------------- -->
   <section class="row" id="step-apply" hidden>
     <h2 class="row-title">Review &amp; push</h2>
 
     <div class="note">
       <p><b>This is a clean install.</b> Each selected profile is reset to exactly
-      Cinemeta, OpenSubtitles v3, Xperience, your chosen AIOStreams build and —
-      if Live TV is on — the IPTV addon. Every other addon is removed, and all
+      Cinemeta, OpenSubtitles v3, Xperience and your chosen AIOStreams build. Every other addon is removed, and all
       existing collections are replaced by the bundled <b>Streaming</b> and
       <b>Genres</b> ones. Run <b>Preview changes</b> first to see what would go.</p>
     </div>
